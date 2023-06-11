@@ -1,0 +1,25 @@
+INSTALL XAMPP
+1. download xampp here https://www.apachefriends.org/index.html
+2. install xampp
+3. then open/run xampp
+4. start Apache and MySQL
+
+MOVING FILE POS.ZIP
+6. locate your downloaded pos.zip then copy
+7. go to your htdocs folder (C:/xampp/htdocs)
+8. paste and extract pos.zip here
+
+IMPORTING DATABASE
+9. open your google chrome(or any browser)
+10. type/copy this to url localhost/phpmyadmin
+11. click the NEW (see from right side)
+12. create database name "orderingdb"
+13. click "orderingdb" (see from the right side)
+14. click import (see from the top)
+15. click choose file
+16. locate C:\xampp\htdocs\pos\db
+17. import "orderingdb.sql"
+18. click go (see from the bottom)
+
+RUN THE SIMPLE POS SYSTEM
+19. lastly, type/copy this to url "localhost/pos/"
